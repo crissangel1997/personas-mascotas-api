@@ -11,6 +11,8 @@ Este proyecto es una API construida en **Laravel 8** que permite gestionar perso
 
 ### Consideraciones importantes del desarrollador
 
+* se debe tener git instalado 
+
 * Antes de ejecutar el php artisan migrate, se debe crear la base de datos por que si no saldra 
   que no existe una base de datos cuando esta migre.
 
@@ -25,6 +27,8 @@ Este proyecto es una API construida en **Laravel 8** que permite gestionar perso
 
 * Cada vez que se añada una documentacion a una ruta o auna funcion con laravel scribe se be ejecutar  **php artisan scribe:generate**, 
   y para visualizarlo en el anvegador se coloca **http://127.0.0.1:8000/docs**
+
+
 
 # Instrucciones para instalar y correr el proyecto
 
