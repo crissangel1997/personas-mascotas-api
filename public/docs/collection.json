@@ -10,7 +10,7 @@
     ],
     "info": {
         "name": "Laravel",
-        "_postman_id": "a04b7fc1-6491-4ecf-968f-28ad96c5a7ec",
+        "_postman_id": "fff99fa2-d4a2-4348-bfa2-25c2262d291e",
         "description": "",
         "schema": "https:\/\/schema.getpostman.com\/json\/collection\/v2.1.0\/collection.json"
     },
@@ -42,7 +42,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\n    \"name\": \"perspiciatis\",\n    \"email\": \"veritatis\",\n    \"password\": \"sint\"\n}"
+                            "raw": "{\n    \"name\": \"sit\",\n    \"email\": \"aut\",\n    \"password\": \"similique\"\n}"
                         },
                         "description": "",
                         "auth": {
@@ -73,7 +73,7 @@
                                 ],
                                 "body": {
                                     "mode": "raw",
-                                    "raw": "{\n    \"name\": \"perspiciatis\",\n    \"email\": \"veritatis\",\n    \"password\": \"sint\"\n}"
+                                    "raw": "{\n    \"name\": \"sit\",\n    \"email\": \"aut\",\n    \"password\": \"similique\"\n}"
                                 },
                                 "description": "",
                                 "auth": {
@@ -109,7 +109,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\n    \"email\": \"et\",\n    \"password\": \"harum\"\n}"
+                            "raw": "{\n    \"email\": \"quod\",\n    \"password\": \"suscipit\"\n}"
                         },
                         "description": "",
                         "auth": {
@@ -140,7 +140,7 @@
                                 ],
                                 "body": {
                                     "mode": "raw",
-                                    "raw": "{\n    \"email\": \"et\",\n    \"password\": \"harum\"\n}"
+                                    "raw": "{\n    \"email\": \"quod\",\n    \"password\": \"suscipit\"\n}"
                                 },
                                 "description": "",
                                 "auth": {
@@ -174,7 +174,7 @@
                                 ],
                                 "body": {
                                     "mode": "raw",
-                                    "raw": "{\n    \"email\": \"et\",\n    \"password\": \"harum\"\n}"
+                                    "raw": "{\n    \"email\": \"quod\",\n    \"password\": \"suscipit\"\n}"
                                 },
                                 "description": "",
                                 "auth": {
@@ -464,12 +464,12 @@
                             "query": [
                                 {
                                     "key": "per_page",
-                                    "value": "8",
+                                    "value": "6",
                                     "description": "Opcional. Cantidad de resultados por p\u00e1gina.",
                                     "disabled": false
                                 }
                             ],
-                            "raw": "http:\/\/{{baseUrl}}\/api\/mascotas?per_page=8"
+                            "raw": "http:\/\/{{baseUrl}}\/api\/mascotas?per_page=6"
                         },
                         "method": "GET",
                         "header": [
@@ -499,12 +499,12 @@
                                     "query": [
                                         {
                                             "key": "per_page",
-                                            "value": "8",
+                                            "value": "6",
                                             "description": "Opcional. Cantidad de resultados por p\u00e1gina.",
                                             "disabled": false
                                         }
                                     ],
-                                    "raw": "http:\/\/{{baseUrl}}\/api\/mascotas?per_page=8"
+                                    "raw": "http:\/\/{{baseUrl}}\/api\/mascotas?per_page=6"
                                 },
                                 "method": "GET",
                                 "header": [
@@ -552,7 +552,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\n    \"nombre\": \"quia\",\n    \"especie\": \"perspiciatis\",\n    \"raza\": \"voluptatem\",\n    \"edad\": 12,\n    \"fecha_nacimiento\": \"dolore\",\n    \"imagen\": \"https:\\\/\\\/www.runolfsdottir.com\\\/perspiciatis-perferendis-cum-minus-quisquam-molestias-qui-tempora\",\n    \"persona_id\": 2\n}"
+                            "raw": "{\n    \"nombre\": \"numquam\",\n    \"especie\": \"quibusdam\",\n    \"raza\": \"est\",\n    \"edad\": 1,\n    \"fecha_nacimiento\": \"est\",\n    \"imagen\": \"https:\\\/\\\/www.shields.com\\\/excepturi-numquam-fugit-accusantium-nesciunt-ut\",\n    \"persona_id\": 13\n}"
                         },
                         "description": "",
                         "auth": {
@@ -583,7 +583,7 @@
                                 ],
                                 "body": {
                                     "mode": "raw",
-                                    "raw": "{\n    \"nombre\": \"quia\",\n    \"especie\": \"perspiciatis\",\n    \"raza\": \"voluptatem\",\n    \"edad\": 12,\n    \"fecha_nacimiento\": \"dolore\",\n    \"imagen\": \"https:\\\/\\\/www.runolfsdottir.com\\\/perspiciatis-perferendis-cum-minus-quisquam-molestias-qui-tempora\",\n    \"persona_id\": 2\n}"
+                                    "raw": "{\n    \"nombre\": \"numquam\",\n    \"especie\": \"quibusdam\",\n    \"raza\": \"est\",\n    \"edad\": 1,\n    \"fecha_nacimiento\": \"est\",\n    \"imagen\": \"https:\\\/\\\/www.shields.com\\\/excepturi-numquam-fugit-accusantium-nesciunt-ut\",\n    \"persona_id\": 13\n}"
                                 },
                                 "description": "",
                                 "auth": {
@@ -609,13 +609,13 @@
                                 {
                                     "id": "mascota",
                                     "key": "mascota",
-                                    "value": "occaecati",
+                                    "value": "minus",
                                     "description": ""
                                 },
                                 {
                                     "id": "id",
                                     "key": "id",
-                                    "value": "18",
+                                    "value": "10",
                                     "description": "requerido. ID de la mascota."
                                 }
                             ]
@@ -651,13 +651,13 @@
                                         {
                                             "id": "mascota",
                                             "key": "mascota",
-                                            "value": "occaecati",
+                                            "value": "minus",
                                             "description": ""
                                         },
                                         {
                                             "id": "id",
                                             "key": "id",
-                                            "value": "18",
+                                            "value": "10",
                                             "description": "requerido. ID de la mascota."
                                         }
                                     ]
@@ -698,13 +698,13 @@
                                 {
                                     "id": "mascota",
                                     "key": "mascota",
-                                    "value": "voluptatum",
+                                    "value": "sed",
                                     "description": ""
                                 },
                                 {
                                     "id": "id",
                                     "key": "id",
-                                    "value": "2",
+                                    "value": "7",
                                     "description": "requerido. ID de la mascota."
                                 }
                             ]
@@ -722,7 +722,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\n    \"nombre\": \"sit\",\n    \"especie\": \"totam\",\n    \"raza\": \"rerum\",\n    \"edad\": 7,\n    \"fecha_nacimiento\": \"2025-05-07T13:00:12+0000\",\n    \"imagen\": \"http:\\\/\\\/pacocha.net\\\/iste-ab-voluptas-eos-quaerat-veniam-sed.html\",\n    \"persona_id\": 5\n}"
+                            "raw": "{\n    \"nombre\": \"quis\",\n    \"especie\": \"sed\",\n    \"raza\": \"voluptatum\",\n    \"edad\": 8,\n    \"fecha_nacimiento\": \"2025-05-07T16:31:46+0000\",\n    \"imagen\": \"http:\\\/\\\/www.gerlach.com\\\/vitae-nostrum-delectus-rerum-tenetur-iure-a-neque\",\n    \"persona_id\": 12\n}"
                         },
                         "description": "",
                         "auth": {
@@ -744,13 +744,13 @@
                                 {
                                     "id": "mascota",
                                     "key": "mascota",
-                                    "value": "autem",
+                                    "value": "debitis",
                                     "description": ""
                                 },
                                 {
                                     "id": "id",
                                     "key": "id",
-                                    "value": "4",
+                                    "value": "2",
                                     "description": "requerido. ID de la mascota."
                                 }
                             ]
@@ -790,12 +790,12 @@
                             "query": [
                                 {
                                     "key": "per_page",
-                                    "value": "2",
+                                    "value": "14",
                                     "description": "Opcional. Cantidad de resultados por p\u00e1gina.",
                                     "disabled": false
                                 }
                             ],
-                            "raw": "http:\/\/{{baseUrl}}\/api\/personas?per_page=2"
+                            "raw": "http:\/\/{{baseUrl}}\/api\/personas?per_page=14"
                         },
                         "method": "GET",
                         "header": [
@@ -825,12 +825,12 @@
                                     "query": [
                                         {
                                             "key": "per_page",
-                                            "value": "2",
+                                            "value": "14",
                                             "description": "Opcional. Cantidad de resultados por p\u00e1gina.",
                                             "disabled": false
                                         }
                                     ],
-                                    "raw": "http:\/\/{{baseUrl}}\/api\/personas?per_page=2"
+                                    "raw": "http:\/\/{{baseUrl}}\/api\/personas?per_page=14"
                                 },
                                 "method": "GET",
                                 "header": [
@@ -878,7 +878,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\n    \"nombre\": \"id\",\n    \"email\": \"xkling@example.net\",\n    \"fecha_nacimiento\": \"2025-05-07T13:00:12+0000\",\n    \"apellido\": \"ratione\",\n    \"edad\": 1,\n    \"direccion\": \"sunt\"\n}"
+                            "raw": "{\n    \"nombre\": \"non\",\n    \"email\": \"sydney54@example.com\",\n    \"fecha_nacimiento\": \"2025-05-07T16:31:46+0000\",\n    \"apellido\": \"ut\",\n    \"edad\": 13,\n    \"direccion\": \"in\"\n}"
                         },
                         "description": "",
                         "auth": {
@@ -900,13 +900,13 @@
                                 {
                                     "id": "persona",
                                     "key": "persona",
-                                    "value": "rem",
+                                    "value": "cumque",
                                     "description": ""
                                 },
                                 {
                                     "id": "id",
                                     "key": "id",
-                                    "value": "15",
+                                    "value": "12",
                                     "description": "requerido. ID de la persona.\n}"
                                 }
                             ]
@@ -942,13 +942,13 @@
                                         {
                                             "id": "persona",
                                             "key": "persona",
-                                            "value": "rem",
+                                            "value": "cumque",
                                             "description": ""
                                         },
                                         {
                                             "id": "id",
                                             "key": "id",
-                                            "value": "15",
+                                            "value": "12",
                                             "description": "requerido. ID de la persona.\n}"
                                         }
                                     ]
@@ -972,7 +972,7 @@
                             },
                             "header": null,
                             "cookie": [],
-                            "body": "{\n    \"message\": \"No query results for model [App\\\\Models\\\\Persona] rem\",\n    \"exception\": \"Symfony\\\\Component\\\\HttpKernel\\\\Exception\\\\NotFoundHttpException\",\n    \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Exceptions\\\\Handler.php\",\n    \"line\": 385,\n    \"trace\": [\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Exceptions\\\\Handler.php\",\n            \"line\": 332,\n            \"function\": \"prepareException\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Exceptions\\\\Handler\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\app\\\\Exceptions\\\\Handler.php\",\n            \"line\": 63,\n            \"function\": \"render\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Exceptions\\\\Handler\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\nunomaduro\\\\collision\\\\src\\\\Adapters\\\\Laravel\\\\ExceptionHandler.php\",\n            \"line\": 54,\n            \"function\": \"render\",\n            \"class\": \"App\\\\Exceptions\\\\Handler\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Routing\\\\Pipeline.php\",\n            \"line\": 51,\n            \"function\": \"render\",\n            \"class\": \"NunoMaduro\\\\Collision\\\\Adapters\\\\Laravel\\\\ExceptionHandler\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 172,\n            \"function\": \"handleException\",\n            \"class\": \"Illuminate\\\\Routing\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Routing\\\\Middleware\\\\ThrottleRequests.php\",\n            \"line\": 127,\n            \"function\": \"Illuminate\\\\Pipeline\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Routing\\\\Middleware\\\\ThrottleRequests.php\",\n            \"line\": 103,\n            \"function\": \"handleRequest\",\n            \"class\": \"Illuminate\\\\Routing\\\\Middleware\\\\ThrottleRequests\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Routing\\\\Middleware\\\\ThrottleRequests.php\",\n            \"line\": 55,\n            \"function\": \"handleRequestUsingNamedLimiter\",\n            \"class\": \"Illuminate\\\\Routing\\\\Middleware\\\\ThrottleRequests\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 167,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Routing\\\\Middleware\\\\ThrottleRequests\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 103,\n            \"function\": \"Illuminate\\\\Pipeline\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Routing\\\\Router.php\",\n            \"line\": 723,\n            \"function\": \"then\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Routing\\\\Router.php\",\n            \"line\": 698,\n            \"function\": \"runRouteWithinStack\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Routing\\\\Router.php\",\n            \"line\": 662,\n            \"function\": \"runRoute\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Routing\\\\Router.php\",\n            \"line\": 651,\n            \"function\": \"dispatchToRoute\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Http\\\\Kernel.php\",\n            \"line\": 167,\n            \"function\": \"dispatch\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 128,\n            \"function\": \"Illuminate\\\\Foundation\\\\Http\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest.php\",\n            \"line\": 21,\n            \"function\": \"Illuminate\\\\Pipeline\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\ConvertEmptyStringsToNull.php\",\n            \"line\": 31,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 167,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\ConvertEmptyStringsToNull\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest.php\",\n            \"line\": 21,\n            \"function\": \"Illuminate\\\\Pipeline\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TrimStrings.php\",\n            \"line\": 40,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 167,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TrimStrings\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\ValidatePostSize.php\",\n            \"line\": 27,\n            \"function\": \"Illuminate\\\\Pipeline\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 167,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\ValidatePostSize\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\PreventRequestsDuringMaintenance.php\",\n            \"line\": 86,\n            \"function\": \"Illuminate\\\\Pipeline\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 167,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\PreventRequestsDuringMaintenance\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\fruitcake\\\\laravel-cors\\\\src\\\\HandleCors.php\",\n            \"line\": 52,\n            \"function\": \"Illuminate\\\\Pipeline\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 167,\n            \"function\": \"handle\",\n            \"class\": \"Fruitcake\\\\Cors\\\\HandleCors\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Http\\\\Middleware\\\\TrustProxies.php\",\n            \"line\": 39,\n            \"function\": \"Illuminate\\\\Pipeline\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 167,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\TrustProxies\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 103,\n            \"function\": \"Illuminate\\\\Pipeline\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Http\\\\Kernel.php\",\n            \"line\": 142,\n            \"function\": \"then\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Http\\\\Kernel.php\",\n            \"line\": 111,\n            \"function\": \"sendRequestThroughRouter\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\knuckleswtf\\\\scribe\\\\src\\\\Extracting\\\\Strategies\\\\Responses\\\\ResponseCalls.php\",\n            \"line\": 324,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\knuckleswtf\\\\scribe\\\\src\\\\Extracting\\\\Strategies\\\\Responses\\\\ResponseCalls.php\",\n            \"line\": 305,\n            \"function\": \"callLaravelOrLumenRoute\",\n            \"class\": \"Knuckles\\\\Scribe\\\\Extracting\\\\Strategies\\\\Responses\\\\ResponseCalls\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\knuckleswtf\\\\scribe\\\\src\\\\Extracting\\\\Strategies\\\\Responses\\\\ResponseCalls.php\",\n            \"line\": 76,\n            \"function\": \"makeApiCall\",\n            \"class\": \"Knuckles\\\\Scribe\\\\Extracting\\\\Strategies\\\\Responses\\\\ResponseCalls\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\knuckleswtf\\\\scribe\\\\src\\\\Extracting\\\\Strategies\\\\Responses\\\\ResponseCalls.php\",\n            \"line\": 51,\n            \"function\": \"makeResponseCall\",\n            \"class\": \"Knuckles\\\\Scribe\\\\Extracting\\\\Strategies\\\\Responses\\\\ResponseCalls\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\knuckleswtf\\\\scribe\\\\src\\\\Extracting\\\\Strategies\\\\Responses\\\\ResponseCalls.php\",\n            \"line\": 41,\n            \"function\": \"makeResponseCallIfEnabledAndNoSuccessResponses\",\n            \"class\": \"Knuckles\\\\Scribe\\\\Extracting\\\\Strategies\\\\Responses\\\\ResponseCalls\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\knuckleswtf\\\\scribe\\\\src\\\\Extracting\\\\Generator.php\",\n            \"line\": 236,\n            \"function\": \"__invoke\",\n            \"class\": \"Knuckles\\\\Scribe\\\\Extracting\\\\Strategies\\\\Responses\\\\ResponseCalls\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\knuckleswtf\\\\scribe\\\\src\\\\Extracting\\\\Generator.php\",\n            \"line\": 172,\n            \"function\": \"iterateThroughStrategies\",\n            \"class\": \"Knuckles\\\\Scribe\\\\Extracting\\\\Generator\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\knuckleswtf\\\\scribe\\\\src\\\\Extracting\\\\Generator.php\",\n            \"line\": 127,\n            \"function\": \"fetchResponses\",\n            \"class\": \"Knuckles\\\\Scribe\\\\Extracting\\\\Generator\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\knuckleswtf\\\\scribe\\\\src\\\\Commands\\\\GenerateDocumentation.php\",\n            \"line\": 119,\n            \"function\": \"processRoute\",\n            \"class\": \"Knuckles\\\\Scribe\\\\Extracting\\\\Generator\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\knuckleswtf\\\\scribe\\\\src\\\\Commands\\\\GenerateDocumentation.php\",\n            \"line\": 73,\n            \"function\": \"processRoutes\",\n            \"class\": \"Knuckles\\\\Scribe\\\\Commands\\\\GenerateDocumentation\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Container\\\\BoundMethod.php\",\n            \"line\": 36,\n            \"function\": \"handle\",\n            \"class\": \"Knuckles\\\\Scribe\\\\Commands\\\\GenerateDocumentation\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Container\\\\Util.php\",\n            \"line\": 40,\n            \"function\": \"Illuminate\\\\Container\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Container\\\\BoundMethod\",\n            \"type\": \"::\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Container\\\\BoundMethod.php\",\n            \"line\": 93,\n            \"function\": \"unwrapIfClosure\",\n            \"class\": \"Illuminate\\\\Container\\\\Util\",\n            \"type\": \"::\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Container\\\\BoundMethod.php\",\n            \"line\": 37,\n            \"function\": \"callBoundMethod\",\n            \"class\": \"Illuminate\\\\Container\\\\BoundMethod\",\n            \"type\": \"::\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Container\\\\Container.php\",\n            \"line\": 653,\n            \"function\": \"call\",\n            \"class\": \"Illuminate\\\\Container\\\\BoundMethod\",\n            \"type\": \"::\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Console\\\\Command.php\",\n            \"line\": 136,\n            \"function\": \"call\",\n            \"class\": \"Illuminate\\\\Container\\\\Container\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\symfony\\\\console\\\\Command\\\\Command.php\",\n            \"line\": 298,\n            \"function\": \"execute\",\n            \"class\": \"Illuminate\\\\Console\\\\Command\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Console\\\\Command.php\",\n            \"line\": 121,\n            \"function\": \"run\",\n            \"class\": \"Symfony\\\\Component\\\\Console\\\\Command\\\\Command\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\symfony\\\\console\\\\Application.php\",\n            \"line\": 1040,\n            \"function\": \"run\",\n            \"class\": \"Illuminate\\\\Console\\\\Command\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\symfony\\\\console\\\\Application.php\",\n            \"line\": 301,\n            \"function\": \"doRunCommand\",\n            \"class\": \"Symfony\\\\Component\\\\Console\\\\Application\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\symfony\\\\console\\\\Application.php\",\n            \"line\": 171,\n            \"function\": \"doRun\",\n            \"class\": \"Symfony\\\\Component\\\\Console\\\\Application\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Console\\\\Application.php\",\n            \"line\": 94,\n            \"function\": \"run\",\n            \"class\": \"Symfony\\\\Component\\\\Console\\\\Application\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Console\\\\Kernel.php\",\n            \"line\": 129,\n            \"function\": \"run\",\n            \"class\": \"Illuminate\\\\Console\\\\Application\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\artisan\",\n            \"line\": 37,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Console\\\\Kernel\",\n            \"type\": \"->\"\n        }\n    ]\n}"
+                            "body": "{\n    \"message\": \"No query results for model [App\\\\Models\\\\Persona] cumque\",\n    \"exception\": \"Symfony\\\\Component\\\\HttpKernel\\\\Exception\\\\NotFoundHttpException\",\n    \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Exceptions\\\\Handler.php\",\n    \"line\": 385,\n    \"trace\": [\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Exceptions\\\\Handler.php\",\n            \"line\": 332,\n            \"function\": \"prepareException\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Exceptions\\\\Handler\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\app\\\\Exceptions\\\\Handler.php\",\n            \"line\": 63,\n            \"function\": \"render\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Exceptions\\\\Handler\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\nunomaduro\\\\collision\\\\src\\\\Adapters\\\\Laravel\\\\ExceptionHandler.php\",\n            \"line\": 54,\n            \"function\": \"render\",\n            \"class\": \"App\\\\Exceptions\\\\Handler\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Routing\\\\Pipeline.php\",\n            \"line\": 51,\n            \"function\": \"render\",\n            \"class\": \"NunoMaduro\\\\Collision\\\\Adapters\\\\Laravel\\\\ExceptionHandler\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 172,\n            \"function\": \"handleException\",\n            \"class\": \"Illuminate\\\\Routing\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Routing\\\\Middleware\\\\ThrottleRequests.php\",\n            \"line\": 127,\n            \"function\": \"Illuminate\\\\Pipeline\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Routing\\\\Middleware\\\\ThrottleRequests.php\",\n            \"line\": 103,\n            \"function\": \"handleRequest\",\n            \"class\": \"Illuminate\\\\Routing\\\\Middleware\\\\ThrottleRequests\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Routing\\\\Middleware\\\\ThrottleRequests.php\",\n            \"line\": 55,\n            \"function\": \"handleRequestUsingNamedLimiter\",\n            \"class\": \"Illuminate\\\\Routing\\\\Middleware\\\\ThrottleRequests\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 167,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Routing\\\\Middleware\\\\ThrottleRequests\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 103,\n            \"function\": \"Illuminate\\\\Pipeline\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Routing\\\\Router.php\",\n            \"line\": 723,\n            \"function\": \"then\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Routing\\\\Router.php\",\n            \"line\": 698,\n            \"function\": \"runRouteWithinStack\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Routing\\\\Router.php\",\n            \"line\": 662,\n            \"function\": \"runRoute\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Routing\\\\Router.php\",\n            \"line\": 651,\n            \"function\": \"dispatchToRoute\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Http\\\\Kernel.php\",\n            \"line\": 167,\n            \"function\": \"dispatch\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 128,\n            \"function\": \"Illuminate\\\\Foundation\\\\Http\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest.php\",\n            \"line\": 21,\n            \"function\": \"Illuminate\\\\Pipeline\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\ConvertEmptyStringsToNull.php\",\n            \"line\": 31,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 167,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\ConvertEmptyStringsToNull\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest.php\",\n            \"line\": 21,\n            \"function\": \"Illuminate\\\\Pipeline\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TrimStrings.php\",\n            \"line\": 40,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 167,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TrimStrings\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\ValidatePostSize.php\",\n            \"line\": 27,\n            \"function\": \"Illuminate\\\\Pipeline\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 167,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\ValidatePostSize\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\PreventRequestsDuringMaintenance.php\",\n            \"line\": 86,\n            \"function\": \"Illuminate\\\\Pipeline\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 167,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\PreventRequestsDuringMaintenance\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\fruitcake\\\\laravel-cors\\\\src\\\\HandleCors.php\",\n            \"line\": 52,\n            \"function\": \"Illuminate\\\\Pipeline\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 167,\n            \"function\": \"handle\",\n            \"class\": \"Fruitcake\\\\Cors\\\\HandleCors\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Http\\\\Middleware\\\\TrustProxies.php\",\n            \"line\": 39,\n            \"function\": \"Illuminate\\\\Pipeline\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 167,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\TrustProxies\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 103,\n            \"function\": \"Illuminate\\\\Pipeline\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Http\\\\Kernel.php\",\n            \"line\": 142,\n            \"function\": \"then\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Http\\\\Kernel.php\",\n            \"line\": 111,\n            \"function\": \"sendRequestThroughRouter\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\knuckleswtf\\\\scribe\\\\src\\\\Extracting\\\\Strategies\\\\Responses\\\\ResponseCalls.php\",\n            \"line\": 324,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\knuckleswtf\\\\scribe\\\\src\\\\Extracting\\\\Strategies\\\\Responses\\\\ResponseCalls.php\",\n            \"line\": 305,\n            \"function\": \"callLaravelOrLumenRoute\",\n            \"class\": \"Knuckles\\\\Scribe\\\\Extracting\\\\Strategies\\\\Responses\\\\ResponseCalls\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\knuckleswtf\\\\scribe\\\\src\\\\Extracting\\\\Strategies\\\\Responses\\\\ResponseCalls.php\",\n            \"line\": 76,\n            \"function\": \"makeApiCall\",\n            \"class\": \"Knuckles\\\\Scribe\\\\Extracting\\\\Strategies\\\\Responses\\\\ResponseCalls\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\knuckleswtf\\\\scribe\\\\src\\\\Extracting\\\\Strategies\\\\Responses\\\\ResponseCalls.php\",\n            \"line\": 51,\n            \"function\": \"makeResponseCall\",\n            \"class\": \"Knuckles\\\\Scribe\\\\Extracting\\\\Strategies\\\\Responses\\\\ResponseCalls\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\knuckleswtf\\\\scribe\\\\src\\\\Extracting\\\\Strategies\\\\Responses\\\\ResponseCalls.php\",\n            \"line\": 41,\n            \"function\": \"makeResponseCallIfEnabledAndNoSuccessResponses\",\n            \"class\": \"Knuckles\\\\Scribe\\\\Extracting\\\\Strategies\\\\Responses\\\\ResponseCalls\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\knuckleswtf\\\\scribe\\\\src\\\\Extracting\\\\Generator.php\",\n            \"line\": 236,\n            \"function\": \"__invoke\",\n            \"class\": \"Knuckles\\\\Scribe\\\\Extracting\\\\Strategies\\\\Responses\\\\ResponseCalls\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\knuckleswtf\\\\scribe\\\\src\\\\Extracting\\\\Generator.php\",\n            \"line\": 172,\n            \"function\": \"iterateThroughStrategies\",\n            \"class\": \"Knuckles\\\\Scribe\\\\Extracting\\\\Generator\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\knuckleswtf\\\\scribe\\\\src\\\\Extracting\\\\Generator.php\",\n            \"line\": 127,\n            \"function\": \"fetchResponses\",\n            \"class\": \"Knuckles\\\\Scribe\\\\Extracting\\\\Generator\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\knuckleswtf\\\\scribe\\\\src\\\\Commands\\\\GenerateDocumentation.php\",\n            \"line\": 119,\n            \"function\": \"processRoute\",\n            \"class\": \"Knuckles\\\\Scribe\\\\Extracting\\\\Generator\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\knuckleswtf\\\\scribe\\\\src\\\\Commands\\\\GenerateDocumentation.php\",\n            \"line\": 73,\n            \"function\": \"processRoutes\",\n            \"class\": \"Knuckles\\\\Scribe\\\\Commands\\\\GenerateDocumentation\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Container\\\\BoundMethod.php\",\n            \"line\": 36,\n            \"function\": \"handle\",\n            \"class\": \"Knuckles\\\\Scribe\\\\Commands\\\\GenerateDocumentation\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Container\\\\Util.php\",\n            \"line\": 40,\n            \"function\": \"Illuminate\\\\Container\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Container\\\\BoundMethod\",\n            \"type\": \"::\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Container\\\\BoundMethod.php\",\n            \"line\": 93,\n            \"function\": \"unwrapIfClosure\",\n            \"class\": \"Illuminate\\\\Container\\\\Util\",\n            \"type\": \"::\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Container\\\\BoundMethod.php\",\n            \"line\": 37,\n            \"function\": \"callBoundMethod\",\n            \"class\": \"Illuminate\\\\Container\\\\BoundMethod\",\n            \"type\": \"::\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Container\\\\Container.php\",\n            \"line\": 653,\n            \"function\": \"call\",\n            \"class\": \"Illuminate\\\\Container\\\\BoundMethod\",\n            \"type\": \"::\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Console\\\\Command.php\",\n            \"line\": 136,\n            \"function\": \"call\",\n            \"class\": \"Illuminate\\\\Container\\\\Container\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\symfony\\\\console\\\\Command\\\\Command.php\",\n            \"line\": 298,\n            \"function\": \"execute\",\n            \"class\": \"Illuminate\\\\Console\\\\Command\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Console\\\\Command.php\",\n            \"line\": 121,\n            \"function\": \"run\",\n            \"class\": \"Symfony\\\\Component\\\\Console\\\\Command\\\\Command\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\symfony\\\\console\\\\Application.php\",\n            \"line\": 1040,\n            \"function\": \"run\",\n            \"class\": \"Illuminate\\\\Console\\\\Command\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\symfony\\\\console\\\\Application.php\",\n            \"line\": 301,\n            \"function\": \"doRunCommand\",\n            \"class\": \"Symfony\\\\Component\\\\Console\\\\Application\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\symfony\\\\console\\\\Application.php\",\n            \"line\": 171,\n            \"function\": \"doRun\",\n            \"class\": \"Symfony\\\\Component\\\\Console\\\\Application\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Console\\\\Application.php\",\n            \"line\": 94,\n            \"function\": \"run\",\n            \"class\": \"Symfony\\\\Component\\\\Console\\\\Application\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Console\\\\Kernel.php\",\n            \"line\": 129,\n            \"function\": \"run\",\n            \"class\": \"Illuminate\\\\Console\\\\Application\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"C:\\\\wamp64\\\\www\\\\personas-mascotas-api\\\\artisan\",\n            \"line\": 37,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Console\\\\Kernel\",\n            \"type\": \"->\"\n        }\n    ]\n}"
                         }
                     ]
                 },
@@ -989,13 +989,13 @@
                                 {
                                     "id": "persona",
                                     "key": "persona",
-                                    "value": "aut",
+                                    "value": "deleniti",
                                     "description": ""
                                 },
                                 {
                                     "id": "id",
                                     "key": "id",
-                                    "value": "6",
+                                    "value": "4",
                                     "description": "requerido. ID de la persona."
                                 }
                             ]
@@ -1013,7 +1013,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\n    \"nombre\": \"consectetur\",\n    \"email\": \"larissa10@example.net\",\n    \"fecha_nacimiento\": \"2025-05-07T13:00:12+0000\",\n    \"apellido\": \"et\",\n    \"edad\": 4,\n    \"direccion\": \"modi\"\n}"
+                            "raw": "{\n    \"nombre\": \"ipsum\",\n    \"email\": \"bins.keeley@example.org\",\n    \"fecha_nacimiento\": \"2025-05-07T16:31:46+0000\",\n    \"apellido\": \"ducimus\",\n    \"edad\": 20,\n    \"direccion\": \"et\"\n}"
                         },
                         "description": "",
                         "auth": {
@@ -1035,13 +1035,13 @@
                                 {
                                     "id": "persona",
                                     "key": "persona",
-                                    "value": "maiores",
+                                    "value": "molestias",
                                     "description": ""
                                 },
                                 {
                                     "id": "id",
                                     "key": "id",
-                                    "value": "9",
+                                    "value": "4",
                                     "description": "requerido. ID de la persona."
                                 }
                             ]
@@ -1078,7 +1078,7 @@
                                 {
                                     "id": "id",
                                     "key": "id",
-                                    "value": "1",
+                                    "value": "7",
                                     "description": "requerido. ID de la persona."
                                 }
                             ]
@@ -1114,7 +1114,7 @@
                                         {
                                             "id": "id",
                                             "key": "id",
-                                            "value": "1",
+                                            "value": "7",
                                             "description": "requerido. ID de la persona."
                                         }
                                     ]

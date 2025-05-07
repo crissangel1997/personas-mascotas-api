@@ -1,64 +1,193 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Proyecto de Gestión de Personas y Mascotas API
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Este proyecto es una API construida en **Laravel 8** que permite gestionar personas y mascotas. La API proporciona endpoints para crear, consultar, actualizar y eliminar registros de personas y sus respectivas mascotas.
 
-## About Laravel
+## Requisitos del Sistema
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- **WAMP 64bit Server 3.3.7** (PHP 7.4.33) 
+- **Composer**
+- **Laravel 8.x**
+- **MySQL**
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### Consideraciones importantes del desarrollador
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+* Antes de ejecutar el php artisan migrate, se debe crear la base de datos por que si no saldra 
+  que no existe una base de datos cuando esta migre.
 
-## Learning Laravel
+* En los endpoint de creacion de mascotas no es necesario pasar **imagen** esta se registra sola utilizando la api externa
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+* Los endpoint que tienen bearer token: ///, quiere decir que esas rutas necesitas Authorization
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+* El **php artisan db:seed** debe ser ejecutado solo una vez, debido a que si se vuelve a ejecutar se eliminara el usuario de prueba.
 
-## Laravel Sponsors
+* Ojo en caso de ser ejecutado de nuevo  **php artisan db:seed**,  elimine de phpMyAdmin las tablas user, persona, mascotas 
+  despues lance **php artisan migrate:fresh --seed** 
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+* Cada vez que se añada una documentacion a una ruta o auna funcion con laravel scribe se be ejecutar  **php artisan scribe:generate**, 
+  y para visualizarlo en el anvegador se coloca **http://127.0.0.1:8000/docs**
 
-### Premium Partners
+# Instrucciones para instalar y correr el proyecto
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+Sigue estos pasos para instalar y correr el proyecto en tu entorno local:
 
-## Contributing
+### 1. Clonar el Repositorio
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Clona el repositorio en tu máquina local usando Git:
 
-## Code of Conduct
+En la termina de vsCode una vez seleccionada la ruta C:\wamp64\www
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+# Colocar: 
 
-## Security Vulnerabilities
+- git clone https://github.com/crissangel1997/personas-mascotas-api.git
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### 2. Instalar dependencias
 
-## License
+- composer install
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### 3. Copiar el .env.example que ya viene con la configuracion d ela base de datos
+
+- cp .env.example .env
+
+### 4. Generar la clave de aplicacion 
+
+- php artisan key:generate
+
+### 5. Ejecturar migracion
+- php artisan migrate
+
+### 6.Ejecutar seed
+- php artisan db:seed
+
+### Iniciar el servidor 
+- php artisan serve
+
+
+## Endpoint, prueba con postman
+
+**Registrar un usuario**
+
+- POST http://127.0.0.1:8000/api/register
+
+Ejemplo
+
+{
+  "name": "Juan Pérez",
+  "email": "juan@example.com",
+  "password": "123456"
+}
+
+**Iniciar sesion**
+
+- POST http://127.0.0.1:8000/api/login
+
+Ejemplo
+
+{
+  "email": "juan@example.com",
+  "password": "123456"
+}
+
+**Logout**
+
+- POST http://127.0.0.1:8000/api/logout
+
+bearer Token: ///
+
+**Refresh Token**
+
+- POST http://127.0.0.1:8000/api/refresh
+
+bearer Token: ///
+
+**get Me**
+
+- GET http://127.0.0.1:8000/api/me
+
+bearer Token: ///
+
+## Personas enpoint
+
+- POST http://127.0.0.1:8000/api/personas
+
+bearer Token: ///
+
+Ejemplo 
+{
+  "nombre": "Pedro Gómez",
+  "email": "perdo@gmail.com",
+  "fecha_nacimiento": "1999-06-06"
+}
+- PUT http://127.0.0.1:8000/api/personas/{id} **El {id} se reemplaza por el id de la persona a actualizar**
+
+bearer Token: ///
+
+Ejemplo 
+{
+  "nombre": "Luis Gómez",
+  "email": "Luis@gmail.com",
+  "fecha_nacimiento": "1999-06-06"
+}
+
+- GET http://127.0.0.1:8000/api/personas
+
+bearer Token: ///
+
+- Delete http://127.0.0.1:8000/api/personas{id} **El {id} se reemplaza por el id de la persona a eliminar**
+
+bearer Token: ///
+
+## Consultar persona mascota
+
+- GET http://127.0.0.1:8000/api/personas/{id}/mascotas **El {id} se reemplaza por el id de la persona con mascota a consultar**
+
+bearer Token: ///
+
+### Endpoint mascotas
+
+- POST http://127.0.0.1:8000/api/mascotas
+
+bearer Token: ///
+
+Ejemplo 
+{
+ "nombre": "luna",
+  "especie": "gato",
+  "raza": "siamés",
+  "edad": 2,
+  "persona_id": 1 **se le asigna el id de persona a la mascota**
+  }
+
+- PUT http://127.0.0.1:8000/api/mascotas/{id} **El {id} se reemplaza por el id de la mascota a actualizar**
+
+ bearer Token: ///  
+
+ Ejemplo 
+ {
+ "nombre": "lucas",
+  "especie": "perro",
+  "raza": "beagle",
+  "edad": 5,
+  "persona_id": 1
+  
+  }
+
+- GET http://127.0.0.1:8000/api/mascotas
+
+ bearer Token: ///  
+
+- DELETE http://127.0.0.1:8000/api/mascotas/{id}  **El {id} se reemplaza por el id de la mascota a eliminar**
+
+ bearer Token: ///  
+
+
+## Usuario para la autenticacion
+
+- El usuario siguiente se encuentra en el UserSeeder lo cual  una vez se ejecute el seed se puede utilizar en el login
+
+{ 
+  "email": "admin@example.com",
+  "password": "password123"
+}
+
+
+

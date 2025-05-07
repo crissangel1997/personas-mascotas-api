@@ -19,7 +19,7 @@ class CreateMascotasTable extends Migration
             $table->string('especie'); // perro o gato
             $table->string('raza')->nullable();
             $table->integer('edad')->nullable();
-            $table->string('imagen', 70)->nullable();
+            $table->string('imagen', 200)->nullable();
             $table->unsignedBigInteger('persona_id');
             $table->foreign('persona_id')->references('id')->on('personas')->onDelete('cascade');
             $table->timestamps();

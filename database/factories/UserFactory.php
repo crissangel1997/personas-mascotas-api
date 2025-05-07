@@ -15,7 +15,7 @@ class UserFactory extends Factory
      */
     public function definition()
     {
-        return [
+       return [
             'name' => $this->faker->name,
             'email' => $this->faker->unique()->safeEmail,
             'password' => Hash::make('password'),
